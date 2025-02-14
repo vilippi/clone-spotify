@@ -71,11 +71,9 @@ img {
   padding: 20px;
   border-radius: var(--border-radius-l);
   flex: 1;
-  background-image: linear-gradient(
-    to bottom,
-    var(--green-900),
-    var(--green-1000)
-  );
+  background-image: linear-gradient(to bottom,
+      var(--green-900),
+      var(--green-1000));
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -132,8 +130,7 @@ img {
   gap: 10px;
   border-radius: var(--border-radius-l);
   align-items: center;
-  transition: background-color var(--transition-function)
-    var(--transition-duration);
+  transition: background-color var(--transition-function) var(--transition-duration);
 }
 
 .single-item:hover {
@@ -251,11 +248,9 @@ img {
 
 .artist__body {
   padding: 39px 25px;
-  background-image: linear-gradient(
-    to bottom,
-    var(--green-900),
-    var(--green-950)
-  );
+  background-image: linear-gradient(to bottom,
+      var(--green-900),
+      var(--green-950));
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -291,8 +286,7 @@ img {
   align-items: center;
   padding: 10px 25px;
   border-radius: var(--border-radius-s);
-  transition: background-color var(--transition-function)
-    var(--transition-duration);
+  transition: background-color var(--transition-function) var(--transition-duration);
   gap: 15px;
 }
 
@@ -302,7 +296,7 @@ img {
 }
 
 .song-item__name:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .song-item__image {
@@ -331,7 +325,7 @@ img {
 }
 
 .song-list__see-more:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media (max-width: 480px) {
@@ -351,11 +345,9 @@ img {
 .song__container {
   margin: 0 20px;
   border-top-right-radius: 15px;
-  background-image: linear-gradient(
-    to bottom,
-    var(--green-800),
-    var(--green-950)
-  );
+  background-image: linear-gradient(to bottom,
+      var(--green-800),
+      var(--green-950));
   border-top-left-radius: 15px;
   display: flex;
   align-items: center;
